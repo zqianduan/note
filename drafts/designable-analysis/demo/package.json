@@ -1,0 +1,36 @@
+{
+  "name": "designable-formily-antd-demo",
+  "version": "1.0.0",
+  "description": "Designable Formily Antd 完整示例",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@designable/core": "^1.0.0-beta.45",
+    "@designable/formily-antd": "^1.0.0-beta.45",
+    "@designable/formily-setters": "^1.0.0-beta.45",
+    "@designable/formily-transformer": "^1.0.0-beta.45",
+    "@designable/react": "^1.0.0-beta.45",
+    "@designable/react-settings-form": "^1.0.0-beta.45",
+    "@formily/antd": "^2.2.27",
+    "@formily/core": "^2.2.27",
+    "@formily/react": "^2.2.27",
+    "@formily/reactive": "^2.2.27",
+    "@formily/reactive-react": "^2.2.27",
+    "@formily/shared": "^2.3.7",
+    "antd": "^4.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "less": "^4.1.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.3.9"
+  }
+}

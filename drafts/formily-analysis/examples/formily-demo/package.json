@@ -1,0 +1,54 @@
+{
+  "name": "formily-complete-demo",
+  "version": "1.0.0",
+  "description": "Formily 完整示例集 - 覆盖所有组件和 Hooks",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@formily/antd": "^2.2.27",
+    "@formily/core": "^2.2.27",
+    "@formily/json-schema": "^2.2.27",
+    "@formily/react": "^2.2.27",
+    "@formily/reactive": "^2.2.27",
+    "@formily/reactive-react": "^2.2.27",
+    "@formily/shared": "^2.2.27",
+    "@formily/validator": "^2.2.27",
+    "antd": "4.15.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-virtualized": "^9.22.5"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.19.27",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-virtualized": "^9.21.29",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "less": "4.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "keywords": [
+    "formily",
+    "react",
+    "antd",
+    "form",
+    "json-schema",
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT"
+}

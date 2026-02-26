@@ -1,0 +1,29 @@
+{
+  "name": "formily-x-reactions-analysis",
+  "version": "1.0.0",
+  "description": "Formily x-reactions 深度解析与精简版实现",
+  "main": "dist/formily-reactions-impl.js",
+  "types": "dist/formily-reactions-impl.d.ts",
+  "scripts": {
+    "demo": "ts-node formily-reactions-impl.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "start": "npm run build && node dist/formily-reactions-impl.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "formily",
+    "x-reactions",
+    "reactive",
+    "form",
+    "proxy",
+    "mvvm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
